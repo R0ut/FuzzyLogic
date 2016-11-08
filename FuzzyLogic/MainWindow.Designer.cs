@@ -34,6 +34,7 @@
             this.textBoxTemperaturaAktualna = new System.Windows.Forms.TextBox();
             this.labelTemperaturaNaDworzu = new System.Windows.Forms.Label();
             this.pictureBoxOkno = new System.Windows.Forms.PictureBox();
+            this.transparentControl1 = new FuzzyLogic.TransparentControl();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPoraDnia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOkno)).BeginInit();
             this.SuspendLayout();
@@ -41,22 +42,22 @@
             // pictureBoxPoraDnia
             // 
             this.pictureBoxPoraDnia.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxPoraDnia.Image")));
-            this.pictureBoxPoraDnia.Location = new System.Drawing.Point(581, 1);
+            this.pictureBoxPoraDnia.Location = new System.Drawing.Point(598, -1);
             this.pictureBoxPoraDnia.Name = "pictureBoxPoraDnia";
-            this.pictureBoxPoraDnia.Size = new System.Drawing.Size(253, 500);
+            this.pictureBoxPoraDnia.Size = new System.Drawing.Size(258, 500);
             this.pictureBoxPoraDnia.TabIndex = 2;
             this.pictureBoxPoraDnia.TabStop = false;
             // 
             // textBoxTemperaturaPozadana
             // 
-            this.textBoxTemperaturaPozadana.Location = new System.Drawing.Point(12, 300);
+            this.textBoxTemperaturaPozadana.Location = new System.Drawing.Point(12, 430);
             this.textBoxTemperaturaPozadana.Name = "textBoxTemperaturaPozadana";
             this.textBoxTemperaturaPozadana.Size = new System.Drawing.Size(100, 20);
             this.textBoxTemperaturaPozadana.TabIndex = 3;
             // 
             // textBoxTemperaturaAktualna
             // 
-            this.textBoxTemperaturaAktualna.Location = new System.Drawing.Point(12, 326);
+            this.textBoxTemperaturaAktualna.Location = new System.Drawing.Point(12, 456);
             this.textBoxTemperaturaAktualna.Name = "textBoxTemperaturaAktualna";
             this.textBoxTemperaturaAktualna.Size = new System.Drawing.Size(100, 20);
             this.textBoxTemperaturaAktualna.TabIndex = 4;
@@ -64,26 +65,38 @@
             // labelTemperaturaNaDworzu
             // 
             this.labelTemperaturaNaDworzu.AutoSize = true;
-            this.labelTemperaturaNaDworzu.Location = new System.Drawing.Point(595, 32);
+            this.labelTemperaturaNaDworzu.Location = new System.Drawing.Point(666, 46);
             this.labelTemperaturaNaDworzu.Name = "labelTemperaturaNaDworzu";
             this.labelTemperaturaNaDworzu.Size = new System.Drawing.Size(0, 13);
             this.labelTemperaturaNaDworzu.TabIndex = 5;
             // 
             // pictureBoxOkno
             // 
-            this.pictureBoxOkno.Location = new System.Drawing.Point(370, 78);
+            this.pictureBoxOkno.Location = new System.Drawing.Point(38, 70);
             this.pictureBoxOkno.Name = "pictureBoxOkno";
             this.pictureBoxOkno.Size = new System.Drawing.Size(110, 190);
             this.pictureBoxOkno.TabIndex = 6;
             this.pictureBoxOkno.TabStop = false;
             this.pictureBoxOkno.Click += new System.EventHandler(this.pictureBoxOkno_OnClick);
             // 
+            // transparentControl1
+            // 
+            this.transparentControl1.BackColor = System.Drawing.Color.Transparent;
+            this.transparentControl1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("transparentControl1.BackgroundImage")));
+            this.transparentControl1.Image = global::FuzzyLogic.Properties.Resources.typek_cold1;
+            this.transparentControl1.Location = new System.Drawing.Point(323, 169);
+            this.transparentControl1.Name = "transparentControl1";
+            this.transparentControl1.Size = new System.Drawing.Size(317, 322);
+            this.transparentControl1.TabIndex = 7;
+            this.transparentControl1.Text = "1";
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(834, 501);
+            this.ClientSize = new System.Drawing.Size(854, 501);
+            this.Controls.Add(this.transparentControl1);
             this.Controls.Add(this.pictureBoxOkno);
             this.Controls.Add(this.labelTemperaturaNaDworzu);
             this.Controls.Add(this.textBoxTemperaturaAktualna);
@@ -104,6 +117,7 @@
         private System.Windows.Forms.TextBox textBoxTemperaturaAktualna;
         private System.Windows.Forms.Label labelTemperaturaNaDworzu;
         private System.Windows.Forms.PictureBox pictureBoxOkno;
+        private TransparentControl transparentControl1;
     }
 }
 

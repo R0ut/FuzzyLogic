@@ -56,6 +56,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Randomizer.cs" />
     <Compile Include="TimerPoryDnia.cs" />
+    <Compile Include="TransparentControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransparentControl.Designer.cs">
+      <DependentUpon>TransparentControl.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +99,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\okno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\typek_cold.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\typek_norm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\typek_warm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\typek_cold.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

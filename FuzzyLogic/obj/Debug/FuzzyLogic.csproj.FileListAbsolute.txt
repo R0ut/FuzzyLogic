@@ -1,0 +1,8 @@
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\FuzzyLogic-master\FuzzyLogic\bin\Debug\FuzzyLogic.exe.config
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\FuzzyLogic-master\FuzzyLogic\bin\Debug\FuzzyLogic.exe
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\FuzzyLogic-master\FuzzyLogic\bin\Debug\FuzzyLogic.pdb
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\FuzzyLogic-master\FuzzyLogic\obj\Debug\FuzzyLogic.MainWindow.resources
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\FuzzyLogic-master\FuzzyLogic\obj\Debug\FuzzyLogic.Properties.Resources.resources
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\FuzzyLogic-master\FuzzyLogic\obj\Debug\FuzzyLogic.csproj.GenerateResource.Cache
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\FuzzyLogic-master\FuzzyLogic\obj\Debug\FuzzyLogic.exe
+C:\Users\Janek\Documents\Visual Studio 2015\Projects\FuzzyLogic-master\FuzzyLogic\obj\Debug\FuzzyLogic.pdb

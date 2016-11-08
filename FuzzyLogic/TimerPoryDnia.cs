@@ -32,14 +32,14 @@ namespace FuzzyLogic
         private void OnTimedEvent(object source, System.Timers.ElapsedEventArgs e)
         {
             czas++;
-            if(czas <120 && czas % 30 == 0) //temp dzien
+            if(czas <120 && czas % 20 == 0) //temp dzien
             {
-                temperatura = Randomizer.RandomNumber(5, 20).ToString();
+                temperatura = Randomizer.RandomNumber(15, 35).ToString();
                 SetText(temperatura);
             }
-            if(czas > 120 && czas % 30 == 0) //temp noc
+            if(czas > 120 && czas % 20 == 0) //temp noc
             {
-                temperatura = Randomizer.RandomNumber(-10, 10).ToString();
+                temperatura = Randomizer.RandomNumber(10, 25).ToString();
                 SetText(temperatura);
             }
             if (czas == 120)

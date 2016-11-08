@@ -17,21 +17,24 @@ namespace FuzzyLogic
         {
             InitializeComponent();
             TimerPoryDnia tZmianaPoryDnia = new TimerPoryDnia(pictureBoxPoraDnia, labelTemperaturaNaDworzu);
-            pictureBoxOkno.ImageLocation = Path.Combine(Environment.CurrentDirectory, @"Resources\", "okno.png");
+            pictureBoxOkno.ImageLocation = Path.Combine(@"Resources\", "okno.png");
+           
+            
 
-        }
+
+
+    }
         private void pictureBoxOkno_OnClick(object sender, EventArgs e)
         {
             textBoxTemperaturaAktualna.Text = labelTemperaturaNaDworzu.Text;
-            if (pictureBoxOkno.ImageLocation == Path.Combine(Environment.CurrentDirectory, @"Resources\", "okno.png"))
+            if (pictureBoxOkno.ImageLocation == Path.Combine(@"Resources\", "okno.png"))
             {
-                pictureBoxOkno.ImageLocation = Path.Combine(Environment.CurrentDirectory, @"Resources\", "oknoOtwarte.png");
+                pictureBoxOkno.ImageLocation = Path.Combine(@"Resources\", "oknoOtwarte.png");
             }
             else
             {
-                pictureBoxOkno.ImageLocation = Path.Combine(Environment.CurrentDirectory, @"Resources\", "okno.png");
+                pictureBoxOkno.ImageLocation = Path.Combine(@"Resources\", "okno.png");
             }
-            //textBoxTemperaturaPozadana.Text = pictureBoxOkno.ImageLocation.Substring(pictureBoxOkno.ImageLocation.LastIndexOf('.')-4);
         }
     }
 }

@@ -63,6 +63,16 @@ namespace FuzzyLogic.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Background {
+            get {
+                object obj = ResourceManager.GetObject("Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dzien {
             get {
                 object obj = ResourceManager.GetObject("dzien", resourceCulture);
@@ -96,6 +106,46 @@ namespace FuzzyLogic.Properties {
         internal static System.Drawing.Bitmap oknoOtwarte {
             get {
                 object obj = ResourceManager.GetObject("oknoOtwarte", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap typek_cold {
+            get {
+                object obj = ResourceManager.GetObject("typek_cold", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap typek_cold1 {
+            get {
+                object obj = ResourceManager.GetObject("typek_cold1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap typek_norm {
+            get {
+                object obj = ResourceManager.GetObject("typek_norm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap typek_warm {
+            get {
+                object obj = ResourceManager.GetObject("typek_warm", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -1,0 +1,2 @@
+# FuzzyLogic
+Projekt na IO

@@ -35,6 +35,8 @@
             this.labelTemperaturaNaDworzu = new System.Windows.Forms.Label();
             this.pictureBoxOkno = new System.Windows.Forms.PictureBox();
             this.transparentControl1 = new FuzzyLogic.TransparentControl();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPoraDnia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOkno)).BeginInit();
             this.SuspendLayout();
@@ -90,12 +92,32 @@
             this.transparentControl1.TabIndex = 7;
             this.transparentControl1.Text = "1";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(134, 433);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "piecyk";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(134, 463);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(31, 13);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "klima";
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(854, 501);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.transparentControl1);
             this.Controls.Add(this.pictureBoxOkno);
             this.Controls.Add(this.labelTemperaturaNaDworzu);
@@ -118,6 +140,8 @@
         private System.Windows.Forms.Label labelTemperaturaNaDworzu;
         private System.Windows.Forms.PictureBox pictureBoxOkno;
         private TransparentControl transparentControl1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

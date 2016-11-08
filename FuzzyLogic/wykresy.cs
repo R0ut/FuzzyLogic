@@ -5,22 +5,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace wykresy
+namespace FuzzyLogic
 {
     class wykresy
     {
         
-        
         public double min, med1, med2, max;
         public double off = 0;
         public double[] table;
-        public int index; 
+        public int index;
+        public  int piecyk = 0;
+        public  int klima = 0;
+
+
 
         //metoda do wykresu zzz(-inf,13)
         public double zzz(double tem)
         {
-            
-            
+            piecyk = 8;
+            klima = 0;
+           
             med2 = 11;
             max = 13;
 
@@ -30,6 +34,7 @@ namespace wykresy
                 off = (max - tem) / (double)(max - med2);
             else if (tem >= max)
                 off = 0;
+
             return Math.Round(off, 2);
         }
         //metoda do wykresu zz(12,17)
@@ -39,7 +44,8 @@ namespace wykresy
             med1 = 14;
             med2 = 15;
             max = 17;
-
+            piecyk = 6;
+            klima = 0;
 
             if (tem < min)
                 off = 0;
@@ -60,7 +66,8 @@ namespace wykresy
             med1 = 18;
             med2 = 19;
             max = 21;
-
+            piecyk = 4;
+            klima = 0;
 
             if (tem < min)
                 off = 0;
@@ -81,6 +88,8 @@ namespace wykresy
             med1 = 22;
             med2 = 23;
             max = 25;
+            piecyk = 0;
+            klima = 0;
 
 
             if (tem < min)
@@ -102,7 +111,8 @@ namespace wykresy
             med1 = 26;
             med2 = 27;
             max = 29;
-
+            piecyk = 0;
+            klima = 4;
 
             if (tem < min)
                 off = 0;
@@ -123,7 +133,8 @@ namespace wykresy
             med1 = 30;
             med2 = 31;
             max = 33;
-
+            piecyk = 0;
+            klima = 6;
 
             if (tem < min)
                 off = 0;
@@ -144,7 +155,8 @@ namespace wykresy
             med1 = 34;
             med2 = 35;
             max = 36;
-
+            piecyk = 0;
+            klima = 8;
 
             if (tem < min)
                 off = 0;

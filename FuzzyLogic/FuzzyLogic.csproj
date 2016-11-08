@@ -62,6 +62,7 @@
     <Compile Include="TransparentControl.Designer.cs">
       <DependentUpon>TransparentControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="wykresy.cs" />
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
